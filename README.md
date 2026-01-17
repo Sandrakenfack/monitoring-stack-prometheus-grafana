@@ -1,7 +1,7 @@
-# 📊 Monitoring Stack (Prometheus & Grafana)
+# 📊 Pile de surveillance (Prometheus et Grafana)
 
-## 🖼️ Aperçu du Dashboard
-![Capture du Dashboard](aper%C3%A7u%20du%20tableau%20de%20bord.png)
+## 🖼️ Aperçu du tableau de bord
+![Capture du Dashboard](dashboard-preview.png)
 
 ## 🎥 Démonstration Vidéo
 ![Démonstration Live](monitoring-demo-live.mp4)
