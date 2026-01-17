@@ -21,3 +21,6 @@ Le projet inclut une configuration d'alerting proactif :
 ## 📂 Contenu du Dépôt
 * `dashboard.json` : Modèle de tableau de bord prêt à l'emploi.
 * `prometheus.yml` : Configuration du serveur de collecte.
+![Capture](dashboard-preview.png)
+
+![Video](monitoring-demo-live.mp4)
