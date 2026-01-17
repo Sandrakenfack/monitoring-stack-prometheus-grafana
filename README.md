@@ -1,4 +1,4 @@
-# 📊 Mon Dashboard de Monitoring
+# 📊 Monitoring Dashboard
 
 ![Aperçu du Dashboard](dashboard-preview.png)
 
