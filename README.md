@@ -1,9 +1,7 @@
-# 📊 Monitoring Dashboard
+# 📊 Monitoring Stack (Prometheus & Grafana)
 
-## 🖼️ Aperçu
-![Capture](aperçu-du-tableau-de-bord.png)
+## 🖼️ Aperçu du Dashboard
+![Capture du Dashboard](aperçu du tableau de bord.png)
 
-## 🎥 Démonstration
-*Si la vidéo ne s'affiche pas, vérifiez qu'elle fait moins de 25 Mo.*
-
-![Vidéo](monitoring-demo-live.mp4)
+## 🎥 Démonstration Vidéo
+![Démonstration Live](monitoring-demo-live.mp4)
