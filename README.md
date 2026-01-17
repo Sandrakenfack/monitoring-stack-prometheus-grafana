@@ -1,26 +1,18 @@
 # 📊 Monitoring d'Infrastructure Linux (Prometheus & Grafana)
-Stack d'observabilité complète (Prometheus/Grafana) pour serveur Linux avec alerting Discord.
 
-## 🏗️ Architecture Technique
-L'écosystème repose sur trois composants majeurs :
-* **Node Exporter** : Collecte les métriques matérielles (CPU, RAM, Disque) sur le port 9100.
-* **Prometheus** : Serveur de stockage des données qui récupère les métriques toutes les 15 secondes.
-* **Grafana** : Interface de visualisation pour transformer les données en graphiques décisionnels.
+## 🖼️ Aperçu du Dashboard
+![Dashboard Preview](dashboard-preview.png)
 
-## 📊 Métriques Surveillées
-* **Calcul (CPU)** : Utilisation en temps réel pour identifier les pics de charge.
-* **Mémoire (RAM)** : Suivi de la consommation pour prévenir les saturations.
-* **Stockage (Disk)** : Surveillance de l'espace disque disponible.
-* **Réseau (I/O)** : Analyse du débit entrant et sortant.
+## 🏗️ Architecture & Métriques
+Projet d'observabilité pour serveur Ubuntu :
+* **Métriques** : CPU, RAM, Disque et Réseau.
+* **Alerting** : Notifications via Discord.
 
-## ⚠️ Gestion des Alertes
-Le projet inclut une configuration d'alerting proactif :
-* **Seuils** : Warning à 80% et Critical à 90%.
-* **Canal** : Notifications envoyées automatiquement via **Webhook vers Discord**.
+## 🎥 Démonstration Vidéo
+*Voici le système en action lors d'un test de charge :*
 
-## 📂 Contenu du Dépôt
-* `dashboard.json` : Modèle de tableau de bord prêt à l'emploi.
-* `prometheus.yml` : Configuration du serveur de collecte.
-![Capture](dashboard-preview.png)
+![Démonstration Live](monitoring-demo-live.mp4)
 
-![Video](monitoring-demo-live.mp4)
+## 📂 Installation
+1. Téléchargez le fichier `dashboard.json` ci-dessus.
+2. Importez-le dans Grafana.
